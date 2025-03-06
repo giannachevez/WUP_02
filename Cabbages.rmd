@@ -37,6 +37,13 @@ We analyzed the variables and identified that we have numerical variables, speci
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+Upon analyzing the variables, we identified the presence of numerical variables, specifically the amount of vitamin C contained in the two different cultivation methods. These cultivation methods, designated as C39 and C52, represent the categorical variables.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
