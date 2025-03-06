@@ -60,6 +60,12 @@ The data indicates that the C52 cultivation method yields higher vitamin C conte
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+
+I reject the null hypothesis due to the extremely small probability, which is 0.00000003485. Therefore, I conclude that the values for c39 and c52 are significantly different.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
